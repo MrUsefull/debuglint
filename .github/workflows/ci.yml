@@ -24,7 +24,11 @@ jobs:
         go-version: ${{ matrix.go-version }}
     
     - name: Run tests with coverage
-      run: go test -v -race -coverprofile=coverage.out ./...
+      run: |
+        WD=$(pwd)
+        cd testdata/zaplogger/zapwrappers && go get ./... && cd ${WD}
+        cd testdata/zaplogger/zapusages && go get ./... && cd ${WD}
+        go test -v -race -coverprofile=coverage.out ./...
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v5
