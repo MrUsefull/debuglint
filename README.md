@@ -1,4 +1,5 @@
 # DebugLint
+[![CI](https://github.com/MrUsefull/debuglint/workflows/CI/badge.svg)](https://github.com/MrUsefull/debuglint/actions/workflows/ci.yml) [![codecov](https://codecov.io/github/MrUsefull/debuglint/graph/badge.svg?token=P8FPJ5S7SO)](https://codecov.io/github/MrUsefull/debuglint)
 
 ## Overview
 
