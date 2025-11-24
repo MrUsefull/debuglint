@@ -7,7 +7,7 @@ require (
 	github.com/boumenot/gocover-cobertura v1.4.0
 	github.com/hashicorp/go-set/v3 v3.0.1
 	github.com/stretchr/testify v1.11.1
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 	golang.org/x/tools v0.36.0
 )
 
